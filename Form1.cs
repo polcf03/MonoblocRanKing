@@ -13,19 +13,15 @@ namespace Monobloc_RanKing
     public partial class Form1 : Form
     {
         //Objects
-
-
-
+        private Climbers_Manager climbersManager;
 
         //Constructor
         public Form1()
         {
             InitializeComponent();
+            climbersManager = new Climbers_Manager();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }

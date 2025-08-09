@@ -47,7 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Climbers Manager.cs" />
+    <Compile Include="Climber.cs" />
+    <Compile Include="Climbers_Manager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

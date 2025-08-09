@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Monobloc_RanKing
 {
-    internal class Climbers_Manager
+    internal class Climber
     {
     }
 }
