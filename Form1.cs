@@ -15,13 +15,16 @@ namespace Monobloc_RanKing
         //Objects
         private Climbers_Manager climbersManager;
 
+        //Events
+
+        //Class variables
+
         //Constructor
         public Form1()
         {
             InitializeComponent();
             climbersManager = new Climbers_Manager();
         }
-
 
     }
 }

@@ -24,11 +24,12 @@ namespace Monobloc_RanKing
             { "Vermell",6},
             { "Negre",7}
         };
+
+        //Constructor
         public Climbers_Manager()
         {
-        if (Given_Points["Verd"]==0) 
-            {
-            }
+
         }
+
     }
 }
