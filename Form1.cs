@@ -12,19 +12,51 @@ namespace Monobloc_RanKing
 {
     public partial class Form1 : Form
     {
-        //Objects
+        //-----------------------Objects-----------------------//
         private Climbers_Manager climbersManager;
 
-        //Events
+        //-----------------------Events-----------------------//
 
-        //Class variables
 
-        //Constructor
+        //-----------------------Class variables-----------------------//
+
+
+        //-----------------------Constructor-----------------------//
         public Form1()
         {
             InitializeComponent();
+            
             climbersManager = new Climbers_Manager();
+            
+            RankingGroupBox.Visible = true;
+            ChartGroupBox.Visible = false;
+            ClimbersManagerGroupBox.Visible = false;
+
         }
+
+        //-----------------------Menu Strip-----------------------//
+        private void rankingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RankingGroupBox.Visible = true;
+            ChartGroupBox.Visible = false;
+            ClimbersManagerGroupBox.Visible = false;
+        }
+        private void chartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RankingGroupBox.Visible = false;
+            ChartGroupBox.Visible = true;
+            ClimbersManagerGroupBox.Visible = false;
+        }
+        private void climbersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RankingGroupBox.Visible = false;
+            ChartGroupBox.Visible = false;
+            ClimbersManagerGroupBox.Visible = true;
+        }
+
+
+
+
 
     }
 }

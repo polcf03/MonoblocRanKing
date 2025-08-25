@@ -8,17 +8,20 @@ namespace Monobloc_RanKing
 {
     class Climbers_Manager
     {
-        //Objects
+        //-----------------------Objects-----------------------//
+        private Climber Climber;
 
-        //Events
+        //-----------------------Events-----------------------//
 
-        //Class variables
-        
 
-        //Constructor
+        //-----------------------Class variables-----------------------//
+        private  List<Climber> Ranking;
+
+        //-----------------------Constructor-----------------------//
         public Climbers_Manager()
         {
-
+            Ranking = new List<Climber>();
+            
         }
 
     }

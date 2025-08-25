@@ -9,20 +9,20 @@ namespace Monobloc_RanKing
 {
     internal class Climber
     {
-        //Objects
+        //-----------------------Objects-----------------------//
 
 
-        //Events
+        //-----------------------Events-----------------------//
 
 
-        //Class variables
+        //-----------------------Class variables-----------------------//
         private string Name; 
         private string Level;
         private int Score;
         private Dictionary<string, int> Routes;
 
 
-        //Constructor
+        //-----------------------Constructor-----------------------//
         public Climber()
         {
             Name = "new climber";
@@ -58,7 +58,7 @@ namespace Monobloc_RanKing
         }
 
 
-        //Properties
+        //-----------------------Properties-----------------------//
         public string Climber_Name
         {
             get { return Name; }
@@ -85,7 +85,7 @@ namespace Monobloc_RanKing
         }
 
 
-        //Methods
+        //-----------------------Methods-----------------------//
         public void Add_Route(string color, int add_route)
         {
             Routes[color] = Routes[color] + add_route;
