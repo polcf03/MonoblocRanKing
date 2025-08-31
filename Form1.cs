@@ -29,34 +29,37 @@ namespace Monobloc_RanKing
             climbersManager = new Climbers_Manager();
             
             RankingGroupBox.Visible = true;
+            RankingGroupBox.Dock = DockStyle.Fill;
             ChartGroupBox.Visible = false;
+            ChartGroupBox.Dock = DockStyle.Fill;
             ClimbersManagerGroupBox.Visible = false;
+            ClimbersManagerGroupBox.Dock = DockStyle.Fill;
 
         }
 
         //-----------------------Menu Strip-----------------------//
-        private void rankingToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RankingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RankingGroupBox.Visible = true;
             ChartGroupBox.Visible = false;
             ClimbersManagerGroupBox.Visible = false;
         }
-        private void chartToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ChartToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RankingGroupBox.Visible = false;
             ChartGroupBox.Visible = true;
             ClimbersManagerGroupBox.Visible = false;
         }
-        private void climbersToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ClimbersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RankingGroupBox.Visible = false;
             ChartGroupBox.Visible = false;
             ClimbersManagerGroupBox.Visible = true;
         }
 
-
-
-
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
